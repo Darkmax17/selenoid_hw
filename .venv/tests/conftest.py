@@ -93,7 +93,6 @@ def remote_start(options, request):
 def url_homepage(browser, request):
     return request.config.getoption("--url")
 
-
 @pytest.fixture()
 def access():
     opencart_username = 'user'
